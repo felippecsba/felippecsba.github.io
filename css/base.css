@@ -24,6 +24,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -61,10 +65,14 @@ body {
 .logo {
     font-family: var(--Montserrat);
     text-transform: uppercase;
-    color: var(--corVerde);
     width: 20%;
     font-weight: 700;
     font-size: 1.6rem;  
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--corVerde);
 }
 
 .logo span {
@@ -113,7 +121,7 @@ body {
 }
 
 #btMenu,
-label {
+.conteudo label {
     display: none;
 }
 
@@ -257,6 +265,11 @@ img {
     padding-top: 1.5rem;
 }
 
+.tituloH3 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
 p,
 label {
     font-family: var(--Lato);
@@ -275,7 +288,7 @@ label {
 .todoContato {
     margin: auto;
     width: 100%;
-    max-width: 71.25rem;
+    max-width: 60rem;
     min-width: 60%;
 }
 

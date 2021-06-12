@@ -3,8 +3,12 @@
     background: var(--corBranco);
 }
 
-.todoSobre {
-    padding-top: 2rem;
+.infoDados p {
+    padding: 0;
+}
+
+.infoDados h4 {
+    padding: 0;
 }
 
 .colunaSobre .textoSobre {
@@ -12,10 +16,10 @@
     padding-right: 2rem;
 }
 
-.tituloH3 {
-    font-weight: 500;
+.anoXp .tituloH3,
+.textoSobre .tituloH3 {
+    padding-top: 3rem;
     padding-bottom: 0.4rem;
-    font-size: 1.8rem;
 }
 
 .tituloH3 span {

@@ -1,11 +1,21 @@
 .contato {
     padding: 1rem 2rem 6rem 2rem;
-    
+    background: var(--corVerde);    
+}
+
+.contato .tituloMenu {
+    color: var(--corBranco);   
+}
+
+.contato  .tituloMenu span {
+    background: var(--corAzul);    
+}
+.contato .tituloH2 {
+    color: var(--corBranco);    
 }
 
 .todoContato {
     padding: 3rem 0.4rem 0.4rem 0.4rem;
-
 }
 
 .textContato {
@@ -18,6 +28,7 @@
 
 .textContato .tituloH3,
 .formContato .tituloH3{
+    color: var(--corBranco);
     font-weight: 700;
     padding-bottom: 4rem;
 }
@@ -33,6 +44,12 @@
 .textContato .descricao {
     padding-bottom: 4.8rem;
     line-height: 1.7;
+    color: var(--corBranco);
+}
+
+.txtContato p,
+.txtContato span {
+    color: var(--corBranco);
 }
 
 .menuRodape {
@@ -56,7 +73,7 @@
 .linksRodape a {
     padding-right: 3rem;
     text-decoration: none;
-    color: var(--corPreto);
+    color: var(--corBranco);
     transition: .2s;
 }
 
@@ -83,6 +100,7 @@ form {
 
 .camposForm label {
     font-size: 1.2rem;
+    color: var(--corBranco);
 }
 
 
@@ -93,7 +111,7 @@ form {
     outline: none;    
     margin-top: 0.4rem;
     padding:0 0.125rem;
-    border-bottom: 0.0001rem solid #e1e1e1;
+    border-bottom: 0.001rem solid var(--corVerdeAberto);
     color: var(--corVerdeFechado);
     font-size: 1.5rem;
     font-family: var(--Lato);
@@ -104,7 +122,7 @@ form {
 .camposForm textarea:focus {
     outline: none;
     border: none;
-    border-bottom: 1px solid var(--corVerdeFechado);
+    border-bottom: 0.1rem solid var(--corBranco);
 
 }
 
@@ -119,8 +137,8 @@ button {
     margin-top: 0.6rem;
     padding: 1.2rem 3rem;
     text-align: center;
-    background: var(--corVerde);
-    color: var(--corBranco);
+    background: var(--corBranco);
+    color: var(--corVerde);
     font-family: var(--Montserrat);
     font-size: 1.3rem;
     font-weight: 500;
