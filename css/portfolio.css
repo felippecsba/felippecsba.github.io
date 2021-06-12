@@ -1,0 +1,43 @@
+.portfolio {
+    padding: 1.5rem 2rem;
+    background: var(--corBranco);
+    
+}
+
+.subMenuPort {
+    padding-top: 3rem;
+    margin: auto 0 auto 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+
+.subMenuPort a {
+    margin: 3rem;
+    color: var(--corAzul);
+    font-weight: 700;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-family: var(--Montserrat);
+    transition: 0.2s;
+}
+
+.subMenuPort a:hover {
+    color: var(--corVerdeFechado);
+    transform: translateX(1rem) scale(1.2);
+}
+
+.galeryPort {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+    padding: 1rem;
+    width: 90%;
+}
+
+.imgPortfolio {
+    width: 33%;
+    padding: 1rem;
+}

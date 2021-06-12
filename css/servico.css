@@ -1,0 +1,28 @@
+.servico {
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+.cadaServico {
+    text-align: center;
+    width: 33%;
+    margin: 2rem 0 1rem 0;
+    padding: 1rem 2rem;
+}
+
+.cadaServico i {
+    font-size: 2.5rem;
+    color: var(--corAzul);
+}
+
+.tituloCadaServico {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: var(--corVerdeFechado);
+
+}
+
+.cadaServico p {
+    font-family: var(--Lato);
+    font-size: 1.25rem;
+
+}

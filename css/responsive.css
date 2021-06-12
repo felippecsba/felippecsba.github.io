@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+
+    nav,
+    .midiasSociais {
+        display: none;
+    }
+
+    label[for="btMenu"] {
+        padding: 5px;
+        color: var(--corVerdeFechado);
+        text-align: center;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    label,
+    .sideBar {
+        display: block;
+    }
+
+    /*SIDEBAR*/
+
+    .sideBar nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

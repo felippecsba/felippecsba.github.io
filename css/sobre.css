@@ -1,0 +1,106 @@
+.sobre {
+    padding: 1rem 2rem 3rem 2rem;
+    background: var(--corBranco);
+}
+
+.todoSobre {
+    padding-top: 2rem;
+}
+
+.colunaSobre .textoSobre {
+    width: 65%;
+    padding-right: 2rem;
+}
+
+.tituloH3 {
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+    font-size: 1.8rem;
+}
+
+.tituloH3 span {
+    font-weight: 700;
+    color: var(--corVerdeFechado);
+}
+
+.textoQuemSou {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.anoXp {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.contentDez {    
+    width: 12rem;
+    height: 12rem;
+    background-color: #3fa66346;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.dez {
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 500; 
+}
+
+.anoXp .tituloH3 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.circuloConfig {
+    position: relative;
+    z-index: 0;  
+}
+
+.circuloConfig:before {
+    content: " ";
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--corVerdeAberto);
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+
+    display: flex;
+    justify-content: center;
+
+    bottom: 2rem;
+    right: 8rem;
+    left: 8rem;
+} */
+
+ /* Linha de Baixo */
+
+.dadosSobre {
+    font-size: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 4rem;
+}
+
+
+.tituloDados {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    color: var(--corAzul);
+}
+
+.textoSobre {
+    font-size: 1.25rem;
+}

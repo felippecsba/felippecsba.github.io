@@ -1,0 +1,141 @@
+.exp {
+    padding: 1rem 2rem 3rem 2rem;
+    background: var(--corBranco);
+}
+
+.colunaExp,
+.todaSkill {
+    padding: 3rem 2rem;    
+}
+
+.colunaExp .tituloH3,
+.todaSkill .tituloH3 {
+    font-weight: 700;
+    padding-bottom: 1rem ;
+    
+}
+
+.linhaExp {
+    padding: 0 1rem;
+    border-left: solid 0.18rem var(--corVerdeAberto);
+}
+
+.tituloH4 {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.tempoLocal {
+    font-size: 0.8rem;
+    padding-bottom: 0.6rem;
+    font-weight: 700;
+    color: var(--corVerdeFechado);    
+}
+
+.descricaoExp {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+    
+}
+
+hr {
+	border: 0;
+	border-top: 0.06rem solid rgba(141, 141, 141, 0.349);
+    opacity: 0.5;
+    margin-top: 1.2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+/*------SKILL------*/
+
+.todaSkill {
+    padding: 1rem 2rem 0.4rem 2rem;
+}
+
+.dadosSkill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colunaSkill {
+    width: 47%;
+}
+
+.nomePerc h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nomePerc h6 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.barraProg {
+    position: relative;
+    height: 1rem;
+    width: 100%;
+    min-width: 60%;
+    background-color: rgba(204, 204, 204, 0.712);
+    border-radius: 1rem;
+    margin: 0.1rem 0 1.8rem 0 ;
+}
+
+.barraProg .prog80 {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+
+.barraProg .prog60 {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+.barraProg .prog40 {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+
+.barraProg .prog20 {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+
+.barraProg .prog15 {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+.barraProg .prog10 {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background-color: var(--corVerdeAberto);
+    border-radius: 1rem;    
+}
+
+
+
